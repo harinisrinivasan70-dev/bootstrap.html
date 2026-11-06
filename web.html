@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="bs.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body style="background-color: #FFF9EB;">
+
+
+<!-- PAGE-01 -->
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #5f0b18; height: 110px; width: 1351px; position: sticky; top: 0px;" >
+  <div class="container">
+    
+    <div class="mid">
+    <img class="au" src="images/logo top.jpg"  height="30px" width="115px">
+    <!-- <a class="navbar-brand" href="#">Navbar scroll</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <div class="con">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" style="color: white;" href="#">HOME</a>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  style="color: white;" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PAGES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown" style="background-color: #FFF9EB; color: #212529;">
+            <li><a class="dropdown-item" href="#">About us</a></li>
+            <li><a class="dropdown-item" href="#">Cart</a></li>
+            <li><a class="dropdown-item" href="#">Wishlist</a></li>
+            <li><a class="dropdown-item" href="#">Checkout</a></li>
+            <li><a class="dropdown-item" href="#">Contact</a></li>
+            <li><a class="dropdown-item" href="#">FAQs</a></li>
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li><a class="dropdown-item" href="#">Thank you</a></li>
+            <!-- <li><a class="dropdown-item" href="#"></a></li> -->
+            <li><a class="dropdown-item" href="#">style</a></li>
+            <!-- <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+          </ul>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SHOP
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown" style="background-color: #FFF9EB; color: #212529;">
+            <li><a class="dropdown-item" href="#">Shop</a></li>
+            <li><a class="dropdown-item" href="#">Single product</a></li>
+          </ul>
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            BLOG
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown" style="background-color: #FFF9EB; color: #212529;">
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+            <li><a class="dropdown-item" href="#">Single post</a></li>
+          </ul>
+        </li>
+        </li>
+          <a class="nav-link active" aria-current="page" style="color: white;" href="#">CONTACT</a>
+        </li>
+      </li>
+        </div>
+
+      </ul>
+      </div>
+      <div class="nav">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-heart"></i>
+        <button type="button" class="btn  position-relative" style="color: #FFF9EB;">
+    <i class="fa-solid fa-cart-shopping"></i>
+   <span class="position-absolute bottom-50 start-100 translate-middle badge rounded-pill bg-light" style="color: #000000;">
+    03
+    <!-- <span class="visually-hidden">unread messages</span> -->
+  </span>
+</button>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      
+    </div>  
+  </div>
+</nav>
+
+
+<!-- PAGE -01 SLIDES -->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators" style="margin-bottom: 80px;">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="width: 15px; border: solid 1px white; border-radius: 200px; height: 15px;"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"  style="width: 15px; border: solid 1px white; border-radius: 200px; height: 15px;"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"  style="width: 15px; border: solid 1px white; border-radius: 200px; height: 15px;"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/banner(1).JPG" class="d-block w-100" alt="desprition of image">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="beauty">
+        <h2 class="revel">REVEL<br> YOUR <br>BEAUTY</h2>
+        <p class="Illuminate">Discover Your Perfect Look With Premium Cosmetics.</p>
+        <button class="shop">SHOP COLLECTION</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/banner(2).JPG" class="d-block w-100" alt="desprition of image">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="beauty">
+        <h2 class="revel">ENHANCE YOUR GLOW</h2>
+        <p class="Illuminate">Illuminate your beauty with Premium skincare.</p>
+        <button class="shop">SHOP NOW</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/banner(3).JPG" class="d-block w-100" alt="desprition of image">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="beauty">
+        <h2 class="revel">DEFINE YOUR BEAUTY</h2>
+        <p class="Illuminate">Transform Your Look With luxury Cosmetics.</p>
+        <button class="shop">EXPLORE PRODUCTS</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"> -->
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"> -->
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div><br><br><br><br><br><br>
+
+
+<!-- PAGE-02 -->
+
+
+<section >
+  <div class="container">
+  <div class="batch">
+     <img src="images/PAGE(2)1.JPG" height="43px" width="148px">
+     <img src="images/PAGE(2)2.JPG" height="43px" width="148px">
+     <img src="images/PAGE(2)3.JPG" height="33px" width="136px">
+     <img src="images/PAGE(2)4.JPG" height="49px" width="182px">
+     <img src="images/PAGE(2)5.JPG" height="65px" width="166px">
+     </div>
+     </div><br><br><br><br><br><br>
+</section>
+
+
+
+<!-- PAGE-03 -->
+
+<div class=" d-flex lips " >
+<div  class="card text-white mask ">
+  <img src="images/PAGE(3)1.JPG" style="height: 494.86px; width: 402.33px;" class="card-img" alt="description of image">
+  <div class="card-img-overlay">
+    <h2 class="niva" class="card-title">SKINCARE <br>ESSENTIALS</h2>
+    
+  </div>
+</div>
+
+
+<div class="card text-white mask ">
+  <img src="images/PAGE(3)2.JPG" style="height: 494.86px; width: 402.33px;"  class="card-img" alt="description of image">
+  <div class="card-img-overlay">
+    <h2  class="niva" class="card-title">MAKEUP<br> COLLECTION</h2>
+    
+  </div>
+</div>
+
+
+<div class="card text-white mask ">
+  <img src="images/PAGE(3)3.JPG" style="height: 494.86px; width: 402.33px;"  class="card-img" alt="description of image">
+  <div class="card-img-overlay">
+  <h2  class="niva" class="card-title">FRAGRANCE & <br>SCENTS</h2>
+  </div>
+</div>
+</div><br><br><br><br><br>
+
+
+<!-- PAGE-04 -->
+
+<div class="collections">
+    <h2 class="arrivals">NEW ARRIVALS</h2>
+    <p class="brand">Browse our brand new collections</p>
+</div><br><br>
+<div class="container">
+<div class="new">
+    <img src="images/PAGE(4)1.JPG" height="354.83px" width="260.98px">  
+    <img src="images/PAGE(4)2.JPG" height="354.83px" width="260.98px">    
+    <img src="images/PAGE(4)3.JPG" height="354.83px" width="260.98px">    
+    <img src="images/PAGE(4)4.JPG" height="354.83px" width="260.98px">   
+</div>
+</div><br><br>
+
+<div class="sample">
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span> </p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+</div><br><br>
+<div class="container">
+<div class="fresh">
+    <img src="images/PAGE(4)5.JPG" height="354.83px" width="260.98px">  
+    <img src="images/PAGE(4)6.JPG" height="354.83px" width="260.98px">  
+    <img src="images/PAGE(4)7.JPG" height="354.83px" width="260.98px">  
+    <img src="images/PAGE(4)8.JPG" height="354.83px" width="260.98px">  
+</div>
+</div><br><br>
+
+<div class="demo">
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+</div><br><br><br>
+
+<button class="all">VIEW ALL PRODUCTS</button><br><br><br><br><br><br><br>
+
+
+<!-- PAGE-05 -->
+
+<div class="card">
+  <img src="images/PAGE(5)1.JPG" class="card-img" alt="description of image" style="height:550px ;" >
+  <div class="holl">
+  <div class="card-img-overlay container" style="margin-top: 100px; margin-right: 20px;">
+    <h2 class="get">Get 20% OFF <br>On Your First<br> Purchase</h2>
+    <p class="sign">Sign Up for our newsletter and never miss any offers.</p>
+    </div>
+    <div class="Enter card-img-overlay" style="margin-top: 150px; " >
+    <input class="reg" type="email" name="Enter Your Email Address" placeholder="Enter Your Email Address" style="background-color: #FFF9EB;border: solid 1px #000000; height: 50px; width: 350px;padding: 15px;text-align: center;"><br><br>
+      <button class="reg" style="height:60px; width:350px; padding: px;">REGISTER NOW</button>
+    </div>
+    </div>
+</div>
+<br><br><br><br><br>
+
+<!-- PAGE-06 -->
+
+<div class="collections">
+    <h2 class="arrivals">BEST SELLERS</h2>
+    <p class="brand">Elevate your daily looks with our best sellers</p>
+</div><br><br>
+<div class="container">
+<div class="fresh">
+    <img src="images/PAGE-(6)1.JPG" height="354.83px" width="260.98px">  
+    <img src="images/PAGE-(6)2.JPG" height="354.83px" width="260.98px">  
+    <img src="images/PAGE-(6)3.JPG" height="354.83px" width="260.98px">  
+    <img src="images/PAGE(4)4.JPG" height="354.83px" width="260.98px">  
+</div>
+</div><br><br>
+
+<div class="demo">
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+</div><br><br><br> 
+
+<div class="container">
+<div class="fresh">
+    <img src="images/PAGE-(6)5.JPG" height="354.83px" width="260.98px">  
+    <img src="images/PAGE-(6)6.JPG" height="354.83px" width="260.98px">  
+    <img src="images/PAGE-(6)7.JPG" height="354.83px" width="260.98px">  
+    <img src="images/PAGE-(6)8.JPG" height="354.83px" width="260.98px">  
+</div>
+</div><br><br>
+
+<div class="demo">
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+    <p class="line"><span style="border: solid 2px #5f0b18;padding: 15px; color: azure;background-color: #5f0b18;">Add To Cart </span><span style="margin-top: 15px;">$40.00</span></p>
+</div><br><br><br>
+
+<button class="all">VIEW ALL PRODUCTS</button><br><br><br><br><br><br><br>
+
+<!-- PAGE-07 -->
+
+
+<div class="card">
+  <img src="images/PAGE-(7)1.JPG" alt="description of image" style="height:650px ;">
+  <div class="card-img-overlay" style="text-align: center; margin-top: 200px;">
+    <p class="compliments">“The fragrance lasts all day and I<br> constantly receive compliments.<br> Absolutely worth every penny!”</p>
+    <h6 class="scent">- Signature Scent</h6>
+  </div>
+</div><br><br><br><br><br><br>
+
+
+<!-- PAGE-08 -->
+
+<div class="veri">
+
+<div class="bag">
+<img src="images/PAGE-(8)1.JPG" height="100px" width="100px">
+<div><br><br>
+  <h2 class="free">Free Delivery</h2><br>
+  <p class="lorem">Lorem ipsum dolor sit amet,<br> consectetur adipi elit.</p>
+</div>
+</div>
+
+<div class="tick">
+<img src="images/PAGE(8)2.png" height="100px" width="100px">
+<div><br>
+  <h2 class="free" >100% secure <br>payment</h2><br>
+  <p class="lorem">Lorem ipsum dolor sit amet,<br> consectetur adipi elit.</p>
+</div>
+</div>
+
+<div class="bow">
+<img src="images/PAGE(8)3.JPG" height="100px" width="100px">
+<div><br>
+  <h2 class="free">Quality <br>guarantee</h2><br>
+  <p class="lorem">Lorem ipsum dolor sit amet,<br> consectetur adipi elit.</p>
+</div>
+</div>
+
+<div class="dol">
+<img src="images/PAGE-(8)4.JPG" height="100px" width="100px">
+<div><br>
+  <h2 class="free">Daily Offer</h2><br>
+  <p class="lorem">Lorem ipsum dolor sit amet,<br> consectetur adipi elit.</p>
+</div>
+</div>
+
+</div><br><br><br><br><br><br>
+
+
+<!-- PAGE-09 -->
+
+<div class="post container" >
+<h2 class="recent">Recent Blog Post</h2>
+<div>
+<button class="blog">read blog</button>
+</div>
+</div><br><br> 
+
+<div class="sec container">
+<div class="card ">
+  <img src="images/PAGE(9)1.JPG" class="card-img" alt="description of image" style=" height: 279.17px; width: 355.97px;">
+  <div class="card-img-overlay">
+    <h2  class="march" class="card-title">13 <span style="font-size: 24px;">MAR</span></h2>
+  </div>
+</div>
+
+
+<div class="card ">
+  <img src="images/PAGE(9)2.JPG" class="card-img" alt="description of image" style=" height: 279.17px; width: 355.97px;">
+  <div class="card-img-overlay">
+    <h2 class="march" class="card-title">10 <span style="font-size: 24px;">MAR</span></h2>
+  </div>
+</div>
+
+
+<div class="card ">
+  <img src="images/PAGE(9)3.JPG" class="card-img" alt="description of image" style=" height: 279.17px; width: 355.97px;">
+  <div class="card-img-overlay">
+    <h2  class="march" class="card-title">15 <span style="font-size: 24px;">MAR</span> </h2>
+  </div>
+</div>
+</div><br>
+
+<div class="para container">
+<div style="width: 450px;">
+  <h3 class="tips">10 Essential Summer <br> Skincare Tips</h3><br>
+  <p class="skin">Protect your skin from sun damage while maintaining that healthy glow. Discover our expert-recommended summer skincare routine that will keep your complexion radiant all season long.</p>
+</div>
+
+<div style="width: 450px;">
+  <h3 class="tips">Luxury Beauty Brands on <br> a Budget</h3><br>
+  <p class="skin">You don't need to break the bank for premium  <br> beauty results. We've curated the best affordable <br> alternatives to high-end products that deliver <br> exceptional quality without the luxury price tag.</p>
+</div>
+
+<div style="width: 450px;">
+  <h3 class="tips">Pro Makeup Artist Secrets Revealed</h3><br>
+  <p class="skin">Learn the techniques that professional makeup <br> artists use to create flawless looks. From <br> foundation application to perfect winged eyeliner,<br> master these skills for everyday glamour.</p>
+</div>
+</div><br><br><br><br><br><br><br><br>
+
+
+<!-- <footer style="background-color: #5f0b18;"> -->
+
+<!-- PAGE-10 -->
+
+
+<footer style="background-color: #5f0b18;">
+<div class="foot container">
+<div style="margin-top: 150px; line-height: 50px;" >
+    <img src="images/logo top.jpg" height="30px" width="115px">
+    <p class="Find">Find and Define Your Perfect Beauty</p>
+    
+    <div class="bot" >
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-pinterest"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-youtube"></i>
+    </div>
+</div>
+
+<div style="margin-top: 150px; line-height: 40px;">
+  <h6 class="headings">Quick Links</h6><br>
+  <div class="lines">
+  <li >Home</li>
+  <li>About us</li>
+  <li>Offer</li>
+  <li>Services</li>
+  <li>Conatct Us</li>
+  </div>
+</div>
+
+
+<div style="margin-top: 150px; line-height: 40px;">
+<h6 class="headings">About</h6><br>
+<div class="lines">
+<li>How It Work</li>
+<li>Our Packages</li>
+<li>promotions</li>
+<li>refer a friend</li>
+</div>
+</div>
+
+<div style="margin-top: 150px; line-height: 40px;">
+<h6 class="headings">Services</h6><br>
+<div class="lines">
+<li>Payments</li>
+<li>Shipping</li>
+<li>Product returns</li>
+<li>FAQs</li>
+<li>Checkout</li>
+<li>other Issues</li>
+</div>
+</div>
+
+<div style="margin-top: 150px; line-height: 40px;">
+<h6 class="headings">Help Center</h6><br>
+<div class="lines">
+<li>Payments</li>
+<li>Shipping</li>
+<li>Product returns</li>
+<li>FAQs</li>
+<li>Checkout</li>
+<li>other Issues</li>
+</div>
+</div>
+
+</div>
+
+
+
+
+<br><br><br><br><br><br><br><br>
+</footer>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
